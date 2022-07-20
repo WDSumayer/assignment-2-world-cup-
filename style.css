@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 83%;
+    margin: 0 auto;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px 25px;
+    background-color: #DD0000;
+    color: #fff;
+    border-radius: 3px;
+    display: inline-block;
+    margin-top: 25px;
+
+}
+
+.btn:hover i {
+    padding-left: 25px;
+}
+
+.btn i {
+    padding-left: 10px;
+    transition: .3s;
+}
+
+.header-area {
+    border-radius: 25px;
+    background-color: #161616;
+    overflow: hidden;
+    padding: 35px 0 0 0;
+    margin-bottom: 80px;
+}
+
+.header-content-wrapper {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+.header-content-left,
+.header-content-right {
+    width: 50%;
+}
+
+.header-content-left {
+    padding-left: 85px;
+    padding-bottom: 80px;
+}
+
+.header-content-left h1 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 65px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.header-content-left p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #fff;
+}
+
+.header-content-right {
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    padding-right: 85px;
+}
+
+.header-content-right img {
+    width: 100%;
+    transform: scale(1);
+    transition: .3s;
+    position: relative;
+}
+
+.header-content-right img:hover {
+    transform: scale(1.1);
+}
+
+
+.blog-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.aside-menu-bar {
+    width: 18%;
+    border-radius: 7px;
+    padding: 25px;
+    background-color: #161616;
+}
+
+.aside-menu-bar nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.aside-menu-bar nav ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+
+}
+
+.aside-menu-bar nav ul li a {
+    text-decoration: none;
+    padding: 15px 0;
+    border-radius: 7px;
+    background-color: #fff;
+    font-weight: 500;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.aside-menu-bar nav ul li:last-child a {
+    background-color: #DD0000;
+    color: #fff;
+}
+
+.aside-menu-bar nav ul li:last-child {
+    margin-bottom: 0;
+}
+
+.blog-items-wrapper {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: end;
+    grid-row-gap: 20px;
+}
+
+.blog-item-box {
+    width: 270px;
+    border: 1px solid #E8E8E8;
+    border-radius: 9px;
+}
+
+.blog-item-box img {
+    width: 100%;
+}
+
+.blog-box-btn {
+    text-decoration: none;
+    padding: 5px 20px;
+    border: 1px solid #161616;
+    display: inline-block;
+    border-radius: 7px;
+    color: #161616;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.blog-item-box-content {
+    padding: 20px 15px;
+}
+
+.blog-item-box-content h3 {
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+
+.blog-item-box-time-area {
+    display: flex;
+}
+
+.blog-item-box-clock {
+    padding-right: 30px;
+}
+
+.blog-item-box-clock span {
+    padding-left: 10px
+}
+
+.blog-item-box-comment span {
+    padding-left: 10px;
+}
+
+.blog-area-btn {
+    display: none;
+}
+
+
+
+footer {
+    background-color: #161616;
+}
+
+.footer-area {
+    margin-top: 80px;
+}
+
+.footer-top {
+    padding: 50px 0;
+    border-bottom: 2px solid #2D2D2D;
+}
+
+.footer-top h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.footer-bottom {
+    padding: 50px 0;
+}
+
+.footer-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+.footer-menu ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #B9B9B9;
+    padding: 10px 20px;
+}
+
+.social-icons {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.social-icons a i {
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    padding: 3px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    line-height: 27px;
+    font-size: 13px;
+    margin: 5px;
+}
