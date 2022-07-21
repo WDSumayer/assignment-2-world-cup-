@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
 
+/*----------------------- 
+    Basic and important style 
+------------------------*/
 body {
     margin: 0;
     padding: 0;
@@ -25,7 +28,7 @@ p {
 .btn {
     text-decoration: none;
     padding: 10px 25px;
-    background-color: #DD0000;
+    background-color: #DA0138;
     color: #fff;
     border-radius: 3px;
     display: inline-block;
@@ -42,9 +45,12 @@ p {
     transition: .3s;
 }
 
+/*----------------------- 
+    Header Section style 
+------------------------*/
 .header-area {
     border-radius: 25px;
-    background-color: #161616;
+    background-color: #181818;
     overflow: hidden;
     padding: 35px 0 0 0;
     margin-bottom: 80px;
@@ -102,6 +108,9 @@ p {
 }
 
 
+/*----------------------- 
+    Blog Section style 
+------------------------*/
 .blog-content-wrapper {
     display: flex;
     justify-content: space-between;
@@ -212,7 +221,9 @@ p {
 }
 
 
-
+/*----------------------- 
+    Footer Section style 
+------------------------*/
 footer {
     background-color: #161616;
 }
@@ -251,6 +262,7 @@ footer {
     font-size: 15px;
     color: #B9B9B9;
     padding: 10px 20px;
+
 }
 
 .social-icons {
